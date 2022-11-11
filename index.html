@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Getting Started with Chart JS with www.chartjs3.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="chartMenu">
+      
+    </header>
+    <div class="chart-container">
+      
+    
+  <section class="top-section">
+    <div class="balance">
+      <p>my balance</p>
+      <h2 id="balance-sum"></h2>
+    </div>
+    <div class="logo">
+      <img src="./images/logo.svg">
+    </div>
+  </section>
+    
+  <section>
+    <div class="chartCard">
+      <h3> Spending - the last 7 days</h3>
+      <div class="chartBox">
+        <canvas id="myChart" class="custom-chart"></canvas>
+      </div>
+      <div class="totals">
+        
+        <div class="total-money">
+          <p>Total this week</p>
+        <h1 id="week-spend"></h1>
+      </div>
+
+        <div class="total-money">
+          <p>Remaining balance</p>
+          <h1 id="remain-budget"></p>
+          </div>
+       
+        
+
+      </div>
+    </div>
+  </section>
+  </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
